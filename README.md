@@ -2,7 +2,7 @@
 
 Elastic search is deployed in outside
 
-helm install install ./Jaeger-Helm-Charts  \
+helm install install ../Jaeger-Helm-Charts  \
   --set provisionDataStore.cassandra=false \
   --set storage.type=elasticsearch \
   --set storage.elasticsearch.host=<HOST> \
